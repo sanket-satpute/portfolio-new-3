@@ -177,12 +177,12 @@ ul {
    LAYOUT
    ================================================================ */
 .page {
-  max-width: 1120px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 32px 24px 80px;
+  padding: 40px 28px 100px;
   display: flex;
   flex-direction: column;
-  gap: 90px;
+  gap: 110px;
 }
 
 /* ================================================================
@@ -225,7 +225,7 @@ ul {
   -webkit-backdrop-filter: blur(20px);
   background: var(--nav-bg);
   border-radius: 999px;
-  padding: 10px 24px;
+  padding: 12px 28px;
   border: 1px solid var(--glass-border);
   box-shadow: var(--shadow-soft);
   transition: all 0.3s ease;
@@ -241,7 +241,7 @@ ul {
   align-items: center;
   gap: 10px;
   font-weight: 800;
-  font-size: 15px;
+  font-size: 16px;
   letter-spacing: -0.01em;
 }
 
@@ -267,7 +267,7 @@ ul {
 .nav-links {
   display: flex;
   gap: 4px;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .nav-links a {
@@ -371,11 +371,11 @@ ul {
    BUTTONS
    ================================================================ */
 .btn {
-  padding: 10px 20px;
+  padding: 12px 24px;
   border-radius: 999px;
   border: 1px solid var(--glass-border);
   font-weight: 600;
-  font-size: 13px;
+  font-size: 14px;
   background: var(--bg-card);
   color: var(--text);
   cursor: pointer;
@@ -408,8 +408,8 @@ ul {
 }
 
 .btn--lg {
-  padding: 14px 28px;
-  font-size: 14px;
+  padding: 16px 32px;
+  font-size: 15px;
 }
 
 .btn--outline {
@@ -448,8 +448,8 @@ ul {
 }
 
 .btn--nav-resume {
-  font-size: 12px;
-  padding: 8px 18px;
+  font-size: 13px;
+  padding: 9px 20px;
 }
 
 /* ================================================================
@@ -457,7 +457,7 @@ ul {
    ================================================================ */
 .hero {
   position: relative;
-  padding: 48px 0 0;
+  /* padding: 56px 0 0; */
   overflow: hidden;
 }
 
@@ -568,7 +568,7 @@ ul {
 }
 
 .hero-greeting {
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 600;
   color: var(--accent);
   letter-spacing: 0.02em;
@@ -590,9 +590,9 @@ ul {
 }
 
 .role-badge {
-  padding: 6px 16px;
+  padding: 8px 18px;
   border-radius: 999px;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 700;
   border: 1px solid var(--glass-border);
   background: var(--bg-card);
@@ -607,7 +607,7 @@ ul {
 }
 
 .hero-pitch {
-  font-size: 17px;
+  font-size: 18px;
   color: var(--text-secondary);
   max-width: 640px;
   line-height: 1.75;
@@ -628,7 +628,7 @@ ul {
   display: flex;
   align-items: center;
   gap: 10px;
-  font-size: 14px;
+  font-size: 15px;
   color: var(--text-secondary);
 }
 
@@ -657,7 +657,7 @@ ul {
   display: flex;
   flex-wrap: wrap;
   gap: 18px;
-  font-size: 13px;
+  font-size: 14px;
   color: var(--text-muted);
   align-items: center;
 }
@@ -719,8 +719,8 @@ ul {
 /* Proof Grid */
 .proof-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-  gap: 12px;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 16px;
   margin-top: 8px;
 }
 
@@ -728,7 +728,7 @@ ul {
   display: flex;
   align-items: center;
   gap: 14px;
-  padding: 16px 18px;
+  padding: 20px 22px;
   border-radius: 16px;
   background: var(--bg-card);
   border: 1px solid var(--border);
@@ -749,13 +749,13 @@ ul {
 }
 
 .proof-value {
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 800;
   letter-spacing: -0.01em;
 }
 
 .proof-label {
-  font-size: 10px;
+  font-size: 11px;
   color: var(--text-muted);
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -768,7 +768,7 @@ ul {
 .section {
   display: flex;
   flex-direction: column;
-  gap: 28px;
+  gap: 36px;
 }
 
 .section-head {
@@ -778,7 +778,7 @@ ul {
 }
 
 .section-label {
-  font-size: 12px;
+  font-size: 13px;
   text-transform: uppercase;
   letter-spacing: 0.25em;
   color: var(--accent);
@@ -786,7 +786,7 @@ ul {
 }
 
 .section h2 {
-  font-size: clamp(26px, 3.5vw, 40px);
+  font-size: clamp(30px, 4vw, 44px);
   font-weight: 800;
   letter-spacing: -0.02em;
   line-height: 1.15;
@@ -795,7 +795,7 @@ ul {
 .section-sub {
   color: var(--text-secondary);
   max-width: 560px;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 /* ================================================================
@@ -803,7 +803,7 @@ ul {
    ================================================================ */
 .project-grid {
   display: grid;
-  gap: 16px;
+  gap: 20px;
 }
 
 .project-card {
@@ -858,7 +858,7 @@ ul {
   position: absolute;
   top: 16px;
   right: 16px;
-  font-size: 9px;
+  font-size: 10px;
   font-weight: 800;
   letter-spacing: 0.08em;
   color: var(--accent);
@@ -869,7 +869,7 @@ ul {
 }
 
 .project-card-inner {
-  padding: 24px;
+  padding: 28px;
 }
 
 .project-header {
@@ -900,13 +900,13 @@ ul {
 }
 
 .project-header h3 {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700;
   line-height: 1.3;
 }
 
 .project-type {
-  font-size: 11px;
+  font-size: 12px;
   letter-spacing: 0.16em;
   text-transform: uppercase;
   font-weight: 700;
@@ -960,7 +960,7 @@ ul {
   color: var(--text-secondary);
   max-width: 600px;
   line-height: 1.65;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 /* Chips */
@@ -973,7 +973,7 @@ ul {
 .chip {
   padding: 4px 12px;
   border-radius: 999px;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 600;
   border: 1px solid var(--glass-border);
   background: var(--bg-card);
@@ -1016,7 +1016,7 @@ ul {
   border: 1px solid var(--glass-border);
   background: var(--accent-soft);
   color: var(--accent);
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 600;
   cursor: pointer;
   transition: all 0.25s ease;
@@ -1041,7 +1041,7 @@ ul {
 }
 
 .project-label {
-  font-size: 11px;
+  font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 0.18em;
   color: var(--accent);
@@ -1052,7 +1052,7 @@ ul {
 .project-columns ul {
   display: grid;
   gap: 8px;
-  font-size: 13px;
+  font-size: 14px;
   color: var(--text-secondary);
 }
 
@@ -1066,7 +1066,7 @@ ul {
   color: var(--accent);
   font-weight: 700;
   flex-shrink: 0;
-  font-size: 12px;
+  font-size: 13px;
   margin-top: 2px;
 }
 
@@ -1075,13 +1075,13 @@ ul {
    ================================================================ */
 .skills-grid {
   display: grid;
-  gap: 14px;
+  gap: 18px;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
 }
 
 .skill-card {
   border-radius: 20px;
-  padding: 24px;
+  padding: 28px;
   background: var(--bg-card);
   border: 1px solid var(--border);
   transition: all 0.3s ease;
@@ -1103,7 +1103,7 @@ ul {
   position: absolute;
   top: 12px;
   right: 12px;
-  font-size: 9px;
+  font-size: 10px;
   font-weight: 800;
   letter-spacing: 0.08em;
   color: var(--accent);
@@ -1126,12 +1126,12 @@ ul {
 }
 
 .skill-card-header h3 {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 700;
 }
 
 .skill-desc {
-  font-size: 12px;
+  font-size: 13px;
   color: var(--text-muted);
   margin-top: 2px;
 }
@@ -1141,13 +1141,13 @@ ul {
    ================================================================ */
 .approach-grid {
   display: grid;
-  gap: 14px;
+  gap: 18px;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 
 .approach-card {
   border-radius: 20px;
-  padding: 24px;
+  padding: 28px;
   background: var(--bg-card);
   border: 1px solid var(--border);
   transition: all 0.3s ease;
@@ -1167,12 +1167,12 @@ ul {
 }
 
 .approach-card h4 {
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 700;
 }
 
 .approach-card p {
-  font-size: 13px;
+  font-size: 14px;
   color: var(--text-secondary);
   line-height: 1.6;
 }
@@ -1183,7 +1183,7 @@ ul {
 .experience-timeline {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 20px;
 }
 
 .exp-card {
@@ -1218,7 +1218,7 @@ ul {
 }
 
 .exp-card-content {
-  padding: 28px 28px 28px 32px;
+  padding: 32px 32px 32px 36px;
 }
 
 .exp-header {
@@ -1229,15 +1229,15 @@ ul {
 }
 
 .exp-icon-wrap {
-  width: 48px;
-  height: 48px;
+  width: 52px;
+  height: 52px;
   border-radius: 14px;
   background: var(--accent-soft);
   border: 1px solid var(--border-hover);
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 22px;
+  font-size: 24px;
   flex-shrink: 0;
 }
 
@@ -1247,14 +1247,14 @@ ul {
 }
 
 .exp-meta h3 {
-  font-size: 17px;
+  font-size: 19px;
   font-weight: 700;
   line-height: 1.3;
   margin-bottom: 4px;
 }
 
 .exp-org {
-  font-size: 13px;
+  font-size: 14px;
   color: var(--text-secondary);
   margin-bottom: 8px;
 }
@@ -1270,7 +1270,7 @@ ul {
   border-radius: 999px;
   background: var(--accent-soft);
   color: var(--accent);
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 700;
   border: 1px solid var(--border-hover);
 }
@@ -1280,7 +1280,7 @@ ul {
   border-radius: 999px;
   background: var(--bg-card);
   color: var(--text-muted);
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 700;
   border: 1px solid var(--glass-border);
   text-transform: uppercase;
@@ -1291,7 +1291,7 @@ ul {
   display: grid;
   gap: 10px;
   color: var(--text-secondary);
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.6;
 }
 
@@ -1330,7 +1330,7 @@ ul {
 }
 
 .contact-cta-inner {
-  padding: 40px 32px 28px;
+  padding: 48px 36px 32px;
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -1351,7 +1351,7 @@ ul {
 }
 
 .contact-item {
-  padding: 22px 24px;
+  padding: 26px 28px;
   display: flex;
   align-items: center;
   gap: 14px;
@@ -1364,8 +1364,8 @@ ul {
 }
 
 .contact-item-icon {
-  width: 40px;
-  height: 40px;
+  width: 44px;
+  height: 44px;
   border-radius: 12px;
   background: var(--accent-soft);
   display: flex;
@@ -1376,7 +1376,7 @@ ul {
 }
 
 .contact-label {
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 700;
   color: var(--text-muted);
   text-transform: uppercase;
@@ -1386,7 +1386,7 @@ ul {
 .contact-item a,
 .contact-item span {
   font-weight: 600;
-  font-size: 14px;
+  font-size: 15px;
   color: var(--text);
   word-break: break-word;
 }
