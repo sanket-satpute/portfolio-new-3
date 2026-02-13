@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { navItems } from "../data/siteData";
+import { navItems, contactInfo } from "../data/siteData";
 import ThemeToggle from "./ThemeToggle";
 
 export default function Navbar({ activeSection }) {
