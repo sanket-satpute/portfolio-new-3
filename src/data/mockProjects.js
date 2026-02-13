@@ -22,10 +22,10 @@ export const mockProjects = [
       "Implementing complex role-based access across 3 user types",
     ],
     links: {
-      github: "https://github.com/sanket-satpute",
-      live: "",
+      github: "https://github.com/sanket-satpute/odop-backend",
+      live: "https://odop-fronend.vercel.app/",
     },
-    liveLabel: "",
+    liveLabel: "Live Demo",
   },
   {
     title: "CodeMate — AI-Powered Code Review Platform",
