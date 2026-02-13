@@ -51,7 +51,7 @@ export default function Hero() {
                 <div className="hero-actions">
                     <a
                         className="btn primary btn--lg btn--glow"
-                        href="/resume.pdf"
+                        href={contactInfo.resume}
                         target="_blank"
                         rel="noreferrer"
                     >

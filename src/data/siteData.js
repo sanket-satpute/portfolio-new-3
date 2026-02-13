@@ -116,6 +116,7 @@ export const experiences = [
 ];
 
 export const contactInfo = {
+  resume: "https://drive.google.com/uc?export=download&id=1pCrZxmyhuIdeIv7h3gw1GEa6VJLc-oic",
   email: "saptute738@gmail.com",
   linkedin: {
     url: "https://www.linkedin.com/in/sanket-satpute-b1688225a/",

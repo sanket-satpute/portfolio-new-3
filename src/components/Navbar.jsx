@@ -40,14 +40,15 @@ export default function Navbar({ activeSection }) {
                         </a>
                     ))}
                     <div className="nav-links-mobile-actions">
-                        <a className="btn primary" href="/resume.pdf" target="_blank" rel="noreferrer">
+                        {/* Using contactInfo imported from siteData.js - need to ensure it's imported */}
+                        <a className="btn primary" href={contactInfo.resume} target="_blank" rel="noreferrer">
                             📄 Resume
                         </a>
                     </div>
                 </div>
                 <div className="nav-actions">
                     <ThemeToggle />
-                    <a className="btn primary btn--nav-resume" href="/resume.pdf" target="_blank" rel="noreferrer">
+                    <a className="btn primary btn--nav-resume" href={contactInfo.resume} target="_blank" rel="noreferrer">
                         Resume
                     </a>
                     <button

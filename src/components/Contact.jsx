@@ -39,7 +39,7 @@ export default function Contact() {
                         </a>
                         <a
                             className="btn btn--outline btn--lg"
-                            href="/resume.pdf"
+                            href={contactInfo.resume}
                             target="_blank"
                             rel="noreferrer"
                         >
