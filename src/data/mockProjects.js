@@ -49,7 +49,7 @@ export const mockProjects = [
       "Architecting file processing pipelines for large-scale code analysis",
     ],
     links: {
-      github: "https://github.com/sanket-satpute",
+      github: "https://github.com/sanket-satpute/codemate-backend",
       live: "",
     },
     liveLabel: "",
